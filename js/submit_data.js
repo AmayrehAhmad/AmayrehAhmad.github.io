@@ -13,7 +13,8 @@ document.getElementById('contact-form').addEventListener('submit', async (event)
     method: 'POST',
     body: JSON.stringify(data),
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Accept': '*/*'
     }
   });
 
