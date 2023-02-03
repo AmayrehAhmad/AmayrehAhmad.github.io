@@ -9,7 +9,7 @@ document.getElementById('contact-form').addEventListener('submit', async (event)
   });
   
   console.log(JSON.stringify(data));
-  const response = await fetch('https://www.wikipedia.org/', {
+  const response = await fetch('https://34c78oq4yi.execute-api.us-east-1.amazonaws.com/FirstCourseAPI/course', {
     method: 'POST',
     body: JSON.stringify(data),
     headers: {
