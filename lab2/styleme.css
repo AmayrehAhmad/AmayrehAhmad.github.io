@@ -1,0 +1,15 @@
+#favourite-movies > ul {
+    color: blue; /* Change the color to your desired color */
+    font-family: Georgia, serif;
+    font-style: italic; /* Italic font style */
+    font-size: 18px; /* Custom font size */
+}
+
+#My-classes > ul {
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 16px; /* Custom font size */
+    font-weight: bold; /* Bold font weight */
+    background-color: lightblue; /* Custom background color */
+
+}
+
