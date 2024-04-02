@@ -7,9 +7,23 @@
 
 #My-classes > ul {
     font-family: "Arial Black", Arial, sans-serif;
-    font-size: 16px; /* Custom font size */
-    font-weight: bold; /* Bold font weight */
-    background-color: lightblue; /* Custom background color */
+    font-size: 16px; 
+    font-weight: bold; 
+    background-color: lightblue; 
 
+}
+
+a {
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+#intro::first-letter {
+    font-size: 1.5em; 
+    float: left; 
+    font-weight: bold; 
 }
 
