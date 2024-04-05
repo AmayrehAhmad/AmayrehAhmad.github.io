@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form 1</title>
+  <link href="css/webform2.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="navbar-div">
+<nav class="navbar">
+    <div class="golden-dom" id="Golden-dome"><p>MUM Golden Dome Market ::: SRM System</p></div>
+    
+    <div class="navbar-options">
+    <ul>
+        <li><a class="navbar-brand" href="#">Products</a></li>
+        <li><a class="navbar-brand" href="#">Suppliers</a></li>
+    </ul>   
+    </div>
+
+    <div class="sign-out">
+        <p>Hello!</p>
+        <a href="#">Sign out</a>
+
+    </div>
+</nav>
+</div>
+
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col">
+      <h2>New Product Form</h2>
+      <div class="row">
+
+        <form action="#" method="post" id="addProductForm">
+            <div class="col">
+            <label for="productNumber">Product Number:</label><br>
+            <input type="text" id="productNumber" name="productNumber"><br>
+            
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="unitPrice">Unit Price:</label><br>
+            <input type="text" id="unitPrice" name="unitPrice"><br>
+            </div>
+            
+            <div class="col">
+            <label for="quantityInStock">Quantity in Stock:</label><br>
+            <input type="text" id="quantityInStock" name="quantityInStock"><br>
+            
+            <label for="supplier">Supplier:</label><br>
+            <select id="supplier" name="supplier">
+              <option value="supplier1">Supplier 1</option>
+              <option value="supplier2">Supplier 2</option>
+              <option value="supplier3">Supplier 3</option>
+              <!-- Add more options if needed -->
+            </select><br>
+            
+            <label for="dateSupplied">Date Supplied:</label><br>
+            <input type="date" id="dateSupplied" name="dateSupplied"><br>
+            
+            <button type="reset" id="reset-button">Reset</button>
+            <button type="button">Cancel</button>
+            <button type="submit">Add Product</button>
+
+        </div>
+            </form>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>

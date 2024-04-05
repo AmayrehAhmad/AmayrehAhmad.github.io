@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form 1</title>
+<link rel="stylesheet" href="css/webform1.css">
+</head>
+<body>
+
+<form id="registrationForm" action="#" method="get">
+  <label for="websiteURL">Website URL:</label>
+  <input type="text" id="websiteURL" name="websiteURL" pattern="https?://.+" required>
+
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName" pattern="[A-Z]+[a-z]+" required>
+
+  <label for="email">Email address:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" minlength="10"
+  title="Password must be at least 10 characters long" required>
+
+  <input type="submit" value="Submit">
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
