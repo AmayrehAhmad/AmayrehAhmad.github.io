@@ -16,9 +16,32 @@ form {
 }
 
 .navbar {
-    background-color: aqua;
+    background-color: #0099ff;
     display: flex;
     justify-content: space-between;
 
 }
 
+.navbar-options {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+
+
+.navbar-options a{
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .navbar-options ul li:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
